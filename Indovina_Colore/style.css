@@ -1,0 +1,69 @@
+div#gioco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #1b0b21;
+    color: #ecf0f1;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#titolo-gioco {
+    color: white;
+    font-size: 36px;
+    padding: 10px 0;
+}
+
+#start-button {
+    color: white;
+    background-color: #aa0491;
+    border-color: #2a1827;
+    padding: 8px 35px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+ }
+ 
+ button:hover {
+    background-color:#f5a9ff; 
+    color: black;
+}
+
+
+ body{background-color: #1b0718;}
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0.9;
+    transition: opacity 0.5s;
+    border-radius: 8px;
+ }
+
+.color-box:hover {
+    opacity: 1;
+ }
+
+#color-display {
+    background-color: #1b0b21;
+}
+
+#color-options {
+    margin-top: 20px;
+ }
+
+#message {
+   font-size: 20px;
+   margin-top: 10px;
+ }
+
+p.desc-gioco {
+    font-size: 16px;
+    padding: 10px 30px;
+ }
